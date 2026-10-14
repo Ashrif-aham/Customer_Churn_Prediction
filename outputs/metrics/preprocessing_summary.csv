@@ -1,0 +1,10 @@
+Item,Value
+Total records,7043.0
+Training records,5634.0
+Testing records,1409.0
+Original model features,19.0
+Numerical features,3.0
+Categorical features,16.0
+Transformed features,46.0
+Training churn rate (%),26.54
+Testing churn rate (%),26.54

@@ -1,0 +1,47 @@
+Feature,Importance
+num__TotalCharges,0.14198303184534414
+num__tenure,0.12934662884182116
+num__MonthlyCharges,0.12177118193907009
+cat__Contract_Month-to-month,0.06956722745967457
+cat__OnlineSecurity_No,0.03722917705994542
+cat__Contract_Two year,0.03312161862143926
+cat__TechSupport_No,0.03285793482523187
+cat__PaymentMethod_Electronic check,0.027664999004922527
+cat__InternetService_Fiber optic,0.027029863044801688
+cat__OnlineBackup_No,0.016826753742844612
+cat__gender_Male,0.016009446497472136
+cat__gender_Female,0.01591848359779773
+cat__DeviceProtection_No,0.01436564065437769
+cat__PaperlessBilling_No,0.014305205217605713
+cat__Contract_One year,0.014302913927284328
+cat__PaperlessBilling_Yes,0.014117806569881581
+cat__Partner_No,0.013471021972521117
+cat__Partner_Yes,0.013202379456159298
+cat__OnlineSecurity_Yes,0.013104103426522629
+cat__PaymentMethod_Bank transfer (automatic),0.01265239626786423
+cat__PaymentMethod_Credit card (automatic),0.012545699089455334
+cat__Dependents_Yes,0.011969760134997494
+cat__MultipleLines_No,0.011844437198570354
+cat__OnlineBackup_Yes,0.01181540369785844
+cat__InternetService_DSL,0.011562780862049335
+cat__TechSupport_Yes,0.01154781211718491
+cat__MultipleLines_Yes,0.011497164097593297
+cat__Dependents_No,0.011373435208391708
+cat__PaymentMethod_Mailed check,0.011056813882303954
+cat__SeniorCitizen_1,0.010977700622876509
+cat__SeniorCitizen_0,0.01093977610712736
+cat__StreamingTV_Yes,0.010691135225071315
+cat__StreamingTV_No,0.010664744442837614
+cat__DeviceProtection_Yes,0.01054698357481177
+cat__StreamingMovies_Yes,0.010532485536217717
+cat__StreamingMovies_No,0.010439033708592402
+cat__StreamingTV_No internet service,0.006098359351390124
+cat__OnlineBackup_No internet service,0.005374510936502254
+cat__StreamingMovies_No internet service,0.004462031971441954
+cat__TechSupport_No internet service,0.004405723890353362
+cat__OnlineSecurity_No internet service,0.004371709511226929
+cat__DeviceProtection_No internet service,0.003811428663528887
+cat__InternetService_No,0.003578007420660819
+cat__PhoneService_Yes,0.0031615997863879354
+cat__MultipleLines_No phone service,0.002962588866508927
+cat__PhoneService_No,0.002921060123477581
