@@ -1,0 +1,408 @@
+cultureInfo en-GB
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "customerchurn.churn_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Churn Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CHURN RATE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.tenure_band": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Tenure Band"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tenure Band": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Tenure": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.total_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Total Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Total Customers": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.churned_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Churned Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Churned Customers": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.paymentmethod": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "PaymentMethod"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Payment method": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "PaymentMethod": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.internetservice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "InternetService"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Internet service": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "InternetService": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.contract": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Contract"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Contract": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.average_monthly_charge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Average Monthly Charge"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AVG. MONTHLY CHARGE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.techsupport": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "TechSupport"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TechSupport": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Tech support": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.onlinebackup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "OnlineBackup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OnlineBackup": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.average_tenure_months": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Average Tenure Months"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AVG. TENURE / MONTHS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.deviceprotection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "DeviceProtection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DeviceProtection": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.onlinesecurity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "OnlineSecurity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OnlineSecurity": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.retained_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Retained Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RETAINED CUSTOMERS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.customerid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "customerID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Customer ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.monthlycharges": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "MonthlyCharges"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monthly charge": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "customerchurn.churn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CustomerChurn",
+			          "ConceptualProperty": "Churn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Churned": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+
